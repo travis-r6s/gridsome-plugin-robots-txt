@@ -1,6 +1,6 @@
 {
   "name": "gridsome-plugin-robots-txt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate a robots.txt for your site.",
   "main": "index.js",
   "repository": "https://github.com/thetre97/gridsome-plugin-robots-txt",
