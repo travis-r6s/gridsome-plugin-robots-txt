@@ -1,11 +1,17 @@
 {
   "name": "gridsome-plugin-robots-txt",
   "version": "1.0.0",
-  "description": "Generate robots.txt for your site.",
+  "description": "Generate a robots.txt for your site.",
   "main": "index.js",
   "repository": "https://github.com/thetre97/gridsome-plugin-robots-txt",
   "author": "Travis Reynolds",
   "license": "MIT",
+  "keywords": [
+    "gridsome",
+    "gridsome-plugin",
+    "robots txt",
+    "generate-robotstxt"
+  ],
   "dependencies": {
     "generate-robotstxt": "^8.0.0"
   }
