@@ -29,7 +29,7 @@ You can change these options, as well as adding policies:
   use: 'gridsome-plugin-robots-txt',
   options: {
     host: 'https://my-awesome-fast-site.com',
-    sitemap: 'hhttps://my-awesome-fast-site.com/configs/sitemap.xml',
+    sitemap: 'https://my-awesome-fast-site.com/configs/sitemap.xml',
     policy: [
       {
         userAgent: "Googlebot",
