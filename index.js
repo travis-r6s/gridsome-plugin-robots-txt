@@ -9,8 +9,9 @@ module.exports = (api, options) => {
       throw new Error(`Robots Txt plugin is missing a required siteUrl or host config.`)
     }
 
-    let { host = config.siteUrl, sitemap, policy, output } = options
+    let { host, sitemap, policy, output } = options
 
+    if (!host) host = config.siteUrl
     if (!sitemap) sitemap = url.resolve(host, 'sitemap.xml')
 
     const robotsTxt = await generateRobotsTxt({ policy, sitemap, host })
